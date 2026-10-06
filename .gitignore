@@ -1,0 +1,7 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Nothing to build — the app is plain HTML/CSS/JS.
