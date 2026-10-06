@@ -4,6 +4,8 @@ A small, dependency-free web app that runs the **Lockpicking** mini-game from
 *Too Many Bones*: roll the Lockpicking dice and the Intuition die and pick the
 three locks on a piece of Trove Loot.
 
+**Live demo:** https://barcibarci.github.io/lockpicking-loot/ (GitHub Pages)
+
 ## Run it
 
 Open `index.html` in any modern browser — no build step, no server, no internet
@@ -122,3 +124,8 @@ editable under **Rules & setup**:
 - **Dice faces** — the faces of the Grey, Brown and Yellow dice, as number+type
   pairs. Defaults match the physical Lockpicking dice:
   Grey `1F,2F,3F,1T,3T,2L`, Brown `1L,2L,3L,1F,3F,1T`, Yellow `1T,2T,3T,1L,3L,2F`.
+
+## License
+
+[MIT](LICENSE) © BarciBarci. *Too Many Bones* is a game by Chip Theory Games;
+this is an unofficial fan-made helper and is not affiliated with them.
