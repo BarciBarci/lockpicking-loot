@@ -895,7 +895,7 @@ function renderLoot() {
             ? `<input class="target-input" type="number" min="1" max="6" value="${l.target}" data-input="target" data-id="${i}" aria-label="${t.name} lock target" />`
             : `<b>${l.target}</b>`}
         </div>
-        <div class="lock-state">${l.solved ? 'Open' : isCur ? 'Picking now' : 'Sealed'}</div>
+        <div class="lock-state">${l.solved ? 'Open' : isCur && !(state.attempt && state.attempt.over) ? 'Picking now' : 'Sealed'}</div>
       </div>`;
   }).join('');
   const solved = state.loot.locks.map((l) => l.solved);

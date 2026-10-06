@@ -1,8 +1,14 @@
 # Too Many Bones — Lockpicking
 
+![Made with KI](https://img.shields.io/badge/made%20with-KI-9b7bf0)
+![License: MIT](https://img.shields.io/badge/license-MIT-blue)
+![Live demo](https://img.shields.io/badge/demo-GitHub%20Pages-5fbf7a)
+
 A small, dependency-free web app that runs the **Lockpicking** mini-game from
 *Too Many Bones*: roll the Lockpicking dice and the Intuition die and pick the
 three locks on a piece of Trove Loot.
+
+![Screenshot of the Lockpicking app](screenshot.png)
 
 **Live demo:** https://barcibarci.github.io/lockpicking-loot/ (GitHub Pages)
 
@@ -117,9 +123,9 @@ tests.html    tiny in-browser test page
 
 ## Notes / assumptions
 
-The rules were reconstructed with the player (dice faces, the second-attempt
-rule and the reroll-on-advance rule were supplied directly). One detail is
-editable under **Rules & setup**:
+Built with AI assistance (KI). The rules were reconstructed with the player
+(dice faces, the second-attempt rule and the reroll-on-advance rule were supplied
+directly). One detail is editable under **Rules & setup**:
 
 - **Dice faces** — the faces of the Grey, Brown and Yellow dice, as number+type
   pairs. Defaults match the physical Lockpicking dice:
